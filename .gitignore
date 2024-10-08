@@ -1,0 +1,14 @@
+# Ignore Visual Studio files
+.vs/
+*.csproj.user
+*.suo
+*.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.obj
+*.dll
+*.exe
+*.class
