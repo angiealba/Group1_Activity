@@ -49,3 +49,21 @@ C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0
 C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
 C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
 C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.deps.json
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\bin\Debug\net6.0\ASI.Basecode.Resources.pdb
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.AssemblyReference.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfoInputs.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.AssemblyInfo.cs
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.csproj.CoreCompileInputs.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.sourcelink.json
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Base.22E0E64E.Up2Date
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\refint\ASI.Basecode.Services.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ASI.Basecode.Services.pdb
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Services\obj\Debug\net6.0\ref\ASI.Basecode.Services.dll

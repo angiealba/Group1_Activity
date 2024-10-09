@@ -40,3 +40,18 @@ C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ref
 C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.pdb
 C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.genruntimeconfig.cache
 C:\Users\Predator Neo\Desktop\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ref\ASI.Basecode.Data.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\bin\Debug\net6.0\ASI.Basecode.Data.deps.json
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\bin\Debug\net6.0\ASI.Basecode.Data.runtimeconfig.json
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\bin\Debug\net6.0\ASI.Basecode.Data.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\bin\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.csproj.AssemblyReference.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.AssemblyInfoInputs.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.AssemblyInfo.cs
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.csproj.CoreCompileInputs.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.sourcelink.json
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\refint\ASI.Basecode.Data.dll
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.pdb
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ASI.Basecode.Data.genruntimeconfig.cache
+D:\Alliance\Activity\ASIBasecode\ASI.Basecode.Data\obj\Debug\net6.0\ref\ASI.Basecode.Data.dll
