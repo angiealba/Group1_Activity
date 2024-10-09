@@ -1,0 +1,26 @@
+﻿@model ASI.Basecode.Data.Models.Notification
+
+@{
+    ViewBag.Title = "Delete Notification";
+}
+
+<div class="container mt-4">
+    <h2>Delete Notification</h2>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <div class="alert alert-warning">
+        Are you sure you want to delete the notification titled "<strong>@Model.Title</strong>"?
+    </div>
+
+    <div>
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="NotifId" />
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

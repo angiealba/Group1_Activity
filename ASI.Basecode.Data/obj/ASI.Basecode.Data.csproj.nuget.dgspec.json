@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\elasi\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {}
+    "C:\\Users\\Melvin\\Desktop\\ELASI\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {}
   },
   "projects": {
-    "C:\\elasi\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {
+    "C:\\Users\\Melvin\\Desktop\\ELASI\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\elasi\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Melvin\\Desktop\\ELASI\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
         "projectName": "ASI.Basecode.Data",
-        "projectPath": "C:\\elasi\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
-        "packagesPath": "C:\\Users\\Kierzen\\.nuget\\packages\\",
-        "outputPath": "C:\\elasi\\Group1_Activity\\ASI.Basecode.Data\\obj\\",
+        "projectPath": "C:\\Users\\Melvin\\Desktop\\ELASI\\Group1_Activity\\ASI.Basecode.Data\\ASI.Basecode.Data.csproj",
+        "packagesPath": "C:\\Users\\Melvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Melvin\\Desktop\\ELASI\\Group1_Activity\\ASI.Basecode.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kierzen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Melvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

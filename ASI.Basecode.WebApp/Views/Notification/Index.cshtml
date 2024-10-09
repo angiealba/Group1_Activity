@@ -1,0 +1,102 @@
+﻿@model IEnumerable<ASI.Basecode.Data.Models.Notification>
+
+@{
+    ViewBag.Title = "Notifications";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Adjust the layout path based on your project
+}
+
+<div class="container mt-4">
+    <h2>Notifications</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <div class="mb-3 text-end">
+        <a asp-action="CreateNotification" class="btn btn-primary">Create New Notification</a>
+    </div>
+
+    <div class="notification-list">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var notification in Model)
+            {
+                <div class="notification-card shadow-sm p-3 mb-3 rounded d-flex justify-content-between align-items-start">
+                    <div class="notification-content">
+                        <h5 class="notification-title">@notification.Title</h5>
+                        <p class="notification-message">@notification.Message</p>
+                        <small class="text-muted">@notification.DateTimeCreated.ToString("MMMM dd, yyyy, hh:mm tt")</small>
+                    </div>
+                    <div class="notification-actions d-flex align-items-start">
+                        <a asp-action="Update" asp-route-notifId="@notification.NotifId" class="btn btn-sm btn-outline-primary me-2">Edit</a>
+                        <a asp-action="Delete" asp-route-notifId="@notification.NotifId" class="btn btn-sm btn-outline-danger ">Delete</a>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="alert alert-info text-center">No notifications found.</div>
+        }
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .notification-list {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .notification-card {
+            border-left: 4px solid #007bff; 
+            background-color: #f9f9f9; 
+            padding: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+            .notification-card:hover {
+                background-color: #f1f1f1; 
+            }
+
+        .notification-title {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .notification-message {
+            color: #555;
+        }
+
+        .notification-actions {
+            flex-shrink: 0; 
+        }
+
+            .notification-actions .btn {
+                font-size: 0.85rem;
+            }
+
+        .text-danger, .btn-outline-danger {
+            cursor: pointer;
+        }
+
+            .text-danger:hover, .btn-outline-danger:hover {
+                color: #dc3545;
+            }
+
+        .bi-x-lg {
+            font-size: 1.5rem;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+}
