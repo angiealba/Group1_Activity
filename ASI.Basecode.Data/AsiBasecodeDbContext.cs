@@ -42,7 +42,7 @@ namespace ASI.Basecode.Data
 
                 entity.Property(e => e.Password)
                     .IsRequired()
-                    .HasMaxLength(50)
+                    .HasMaxLength(255)
                     .IsUnicode(false);
 
                 entity.Property(e => e.UpdatedBy)
