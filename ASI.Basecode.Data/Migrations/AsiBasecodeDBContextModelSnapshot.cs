@@ -115,6 +115,9 @@ namespace ASI.Basecode.Data.Migrations
                     b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime");
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -123,9 +126,9 @@ namespace ASI.Basecode.Data.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(50)
+                        .HasMaxLength(255)
                         .IsUnicode(false)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<string>("UpdatedBy")
                         .IsRequired()
