@@ -47,6 +47,7 @@ namespace ASI.Basecode.WebApp.Controllers
             try
             {
                 _roomService.AddRoom(room);
+                TempData["SuccessMessage"] = "Room created successfully!";
                 return RedirectToAction("Index");
             }
             catch (InvalidDataException ex)
@@ -63,6 +64,7 @@ namespace ASI.Basecode.WebApp.Controllers
             if (room != null)
             {
                 _roomService.DeleteRoom(room);
+                TempData["SuccessMessage"] = "Room deleted successfully!";
             }
             return RedirectToAction("Index");
         }
@@ -84,6 +86,7 @@ namespace ASI.Basecode.WebApp.Controllers
             if (ModelState.IsValid)
             {
                 _roomService.UpdateRoom(room);
+                TempData["SuccessMessage"] = "Room updated successfully!";
                 return RedirectToAction("Index");
             }
             return View(room);
