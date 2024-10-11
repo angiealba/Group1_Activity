@@ -21,6 +21,8 @@ namespace ASI.Basecode.Data
         public virtual DbSet<Room> Rooms { get; set; }
         public virtual DbSet<Notification> Notification { get; set; }
         public virtual DbSet<Booking> Bookings { get; set; }
+
+        public virtual DbSet<Admin> Admins{ get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(entity =>
